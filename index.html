@@ -17,31 +17,42 @@
 
 <body>
     <header>
-        <h1>Kristian Hailey</h1>
+        <div class="container">
+          <h1 id="name-title">Kristian Hailey</h1>
+          <nav>
+            <a href="#featured-works">Featured</a>
+            <a href="#my-work">Works</a>
+            <a href="#about-me">About</a>
+            <a href="#skills">Skills</a>
+          </nav>
+        </div>
+        
     </header>
 
     <main>
+        <img src="/images/swiffer-gif.gif" id='woohoo-it-me'>
+
         <div class="top-panel">
             <h2>Hi! Check out my work, and get in touch below.</h2>
         </div>
         
         <hr>
 
-        <div class="featured-works">
-            <h3>Featured Works</h3>
+        <div id="featured-works">
+            <h3 id="featured-works">Featured Works</h3>
 
             <div class="featured-img">
                 <table>
                     <tr>
                         <td>
                             <a href="https://nightmaretown.co">
-                                <img src="/images/nightmare-town.jpg" alt="Nightmare Town" class="screen"
+                                <img src="/images/nightmare-town.jpg" alt="Nightmare Town" class="screen" id='nt-screen'
                                     title="Look for easter egg...">
                             </a>
                         </td>
                         <td>
                             <a href="https://github.com/swifferwarrior/google-homepage">
-                                <img src="/images/geeglo.png" alt="Geeglo" class="screen">
+                                <img src="/images/geeglo.png" alt="Geeglo" class="screen" id='geeglo-screen'>
                             </a>
                         </td>
                     </tr>
@@ -53,7 +64,7 @@
         <hr>
 
         <div class="my-work">
-            <h3>My Work</h3>
+            <h3 id="my-work">My Work</h3>
             <div>
                 <!--Three columns-->
                 <table>
@@ -63,10 +74,16 @@
                         <td><h4><a href="https://swifferwarrior598786754.wordpress.com/">Follow</a></h4></td>
                     </tr>
                     <tr >
-                            <td class="work-content"><p>I am available for taking on new work. See my contact information below and get in touch</p></td>
-                            <td class="work-content"><p>My skills and specialties include Java, HTML, CSS, and Git.</p></td>
-                            <td class="work-content"><p>My blog is a collection of resources and reflections I have made on my journey to becoming a fullstack dev.</p></td>
-                        </tr>
+                        <td class="work-content-table">
+                          <p class="work-content">I am available for taking on new work. See my contact information below and get in touch</p>
+                        </td>
+                        <td class="work-content-table">
+                          <p class="work-content">My skills and specialties include Java, HTML, CSS, and Git.</p>
+                        </td>
+                        <td class="work-content-table">
+                          <p class="work-content">My blog is a collection of resources and reflections I have made on my journey to becoming a fullstack dev.</p>
+                        </td>
+                    </tr>
                 </table>
                 
                 
@@ -77,7 +94,8 @@
         <hr class="wp-block-separator is-style-wide">
 
         <div class="about-me">
-            <h3>About Me</h3>
+            <h3 id="about-me">About Me</h3>
+            <div class="container about-content">
             <p>Currently, I’m a therapist with an M.A. in Clinical Mental Health Counseling with a focus in neuro-based
                 interventions.
                 I provide child therapy, couple’s therapy, and individual and group A&D therapy. I’ve also worked
@@ -92,14 +110,13 @@
                     management, form management, and was compliant with HIPAA standards.</p>
 
                 <p>I’m still taking incremental steps to accomplish this but found along the way that I really enjoy the
-                    challenge and constant learning involved with programming. <a
-                        href="https://swifferwarrior598786754.wordpress.com/" class="more">More...</a> </p>
+                    challenge and constant learning involved with programming. <a href="https://swifferwarrior598786754.wordpress.com/" class="more">More...</a> </p> </div>
         </div>
 
         <hr>
 
         <div class="skills">
-            <h3>Skills</h3>
+            <h3 id="skills">Skills</h3>
             <table>
                 <tr>
                     <td>
@@ -139,10 +156,37 @@
     </main>
 
     <footer>
-        <figure class="edit-by">
-            <img src="/images/swiffer-gif.gif" width="50px" height="50px">
-            <span>Edited by <a href="https://github.com/swifferwarrior">SwifferWarrior</a> © 2019 </span>
+ 
+      <div class="container footer-bar">
+         <figure class="edit-by">
+<!--          <img src="/images/swiffer-gif.gif" width="50px" height="50px">-->
+          <span>Edited by <a href="https://github.com/swifferwarrior">Kristian Hailey</a> © 2019 </span>
+          </figure>
+        <figure class='social-media'>
+          <a href="https://github.com/swifferwarrior" title="GitHub">
+            <img src='./images/icons/github.png'>
+          </a> 
+          
+          <a href="mailto: kdhailey21@gmail.com" title="Email">
+            <img src="./images/icons/email.png">
+          </a>
+
+          <a href="https://www.instagram.com/swifferwarrior/" title="Instagram">
+            <img src='./images/icons/instagram.png'>
+          </a>
+
+          <a href="https://twitter.com/swifferwarrior" title="Twitter">
+            <img src='./images/icons/twitter.png'>
+          </a>
+
+          <a href="https://www.linkedin.com/in/kristian-hailey-1a874a68/" title="LinkedIn">
+            <img src='./images/icons/linkedin.png'>
+          </a>  
+          
         </figure>
+      </div>
+
+      
     </footer>
     <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
@@ -152,3 +196,8 @@
 </body>
 
 </html>
+<!--Todo-->
+<!--
++Collabsible sidebar nav
++
+-->
