@@ -69,6 +69,7 @@ h3 {
 p{
     text-align: justify;
     padding: 0 100px;
+    line-height: 21px;
 }
 
 hr {
@@ -111,11 +112,16 @@ hr {
 Something Daily example
 */
 
-.work-content p{
+.work-content{
+    margin: auto;
     width: 150px;
     padding: 5px;
-    text-align: start;
+    text-align: center;
     vertical-align: top;
+}
+
+.work-content-table {
+  vertical-align: top;
 }
 
 table {
@@ -124,7 +130,28 @@ table {
     margin: auto;
 }
 
+table td {
+/*    border: dotted;*/
+    width: 200px;
+}
+
+td.work-content{
+  padding: 0px;
+  margin: 0px;
+  vertical-align: top;
+  text-align: center;
+}
+
+td p {
+/*  text-align: center;*/
+  text-align: justify;
+}
+
 /*---ABOUT ME---*/
+.about-content{
+  margin: auto;
+  max-width: 825px; 
+}
 
 /*---SKILLS---*/
 
@@ -177,7 +204,7 @@ Add social media icons: twitter, github, linkedin, instagram*/
   padding: 10px;
   position: relative;
   display: inline-block;
-    vertical-align: middle;
+/*    vertical-align: middle;*/
 
 }
 
