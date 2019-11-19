@@ -1,3 +1,24 @@
+/***HEADER***/
+#name-title {
+  display: inline-block;
+  margin: 0;
+  padding: 25px;
+}
+
+nav {
+  display: inline-block;
+  float: right;
+  padding: 35px;
+  word-spacing: 40px;
+}
+
+/***BODY***/
+/*
+Add 'What I'm Learning'
+Add color vectors to background
+Share interests: soft mod emulation, art, cooking
+*/
+
 body, html {
     background-color: black;
     height: 100%;
@@ -21,11 +42,6 @@ h2, h3, .my-work{
 h4 {
     display: inline-block;
     padding: 0 20px;
-}
-
-.featured-img {
-    display: block;
-    width: 100%;;
 }
 
 h2, h3, h4 {
@@ -55,6 +71,25 @@ p{
     padding: 0 100px;
 }
 
+hr {
+    width: 650px;
+    padding: 0px;
+}
+
+#woohoo-it-me {
+  width: 250px;
+  border-radius: 180px;
+  display: block;
+  margin: 50px auto;
+}
+
+/*---FEATURED WORKS---*/
+
+.featured-img {
+    display: block;
+    width: 100%;;
+}
+
 .screen {
     max-height: 300px;
     /* min-width: 250px; */
@@ -71,6 +106,28 @@ p{
     display: inline-block;
 }
 
+/*----MY WORK---*/
+/*
+Something Daily example
+*/
+
+.work-content p{
+    width: 150px;
+    padding: 5px;
+    text-align: start;
+    vertical-align: top;
+}
+
+table {
+    position: relative;
+    text-align: center;
+    margin: auto;
+}
+
+/*---ABOUT ME---*/
+
+/*---SKILLS---*/
+
 .skills {
     display: block;
     margin: auto;
@@ -79,12 +136,6 @@ p{
 
 .footer {
     bottom: 0px;
-}
-
-table {
-    position: relative;
-    text-align: center;
-    margin: auto;
 }
 
 a {
@@ -99,10 +150,7 @@ a:hover {
     text-shadow: 5px 5px 5px rgb(144, 247, 144);
 }
 
-hr {
-    width: 650px;
-    padding: 0px;
-}
+
 
 .more {
     color: dimgrey;
@@ -113,12 +161,44 @@ hr {
     padding-bottom: 50px;
 }
 
-.work-content p{
-    width: 150px;
-    padding: 5px;
-    text-align: start;
-    vertical-align: top;
+/***FOOTER***/
+/*
+Add social media icons: twitter, github, linkedin, instagram*/
+.footer-bar {
+  display: block;
+  position: relative;
+  vertical-align: middle;
+/*  border-top: solid white 2px;*/
+      box-shadow: 0  0 1px 0;
 }
+
+.edit-by, .social-media {
+  margin: 0;
+  padding: 10px;
+  position: relative;
+  display: inline-block;
+    vertical-align: middle;
+
+}
+
+.social-media {
+  float: right;
+
+}
+.edit-by span{
+  position: relative;
+  padding: 15px;
+}
+
+.social-media img {
+  filter: invert(100%);
+  width: 50px;
+  margin: auto;
+/*  display: inline;*/
+  padding: 0px 10px;
+}
+
+/*---FONTS---*/
 
 @font-face {
     font-family: 'Londrina Shadow';

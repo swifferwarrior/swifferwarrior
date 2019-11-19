@@ -17,29 +17,40 @@
 
 <body>
     <header>
-        <h1>Kristian Hailey</h1>
+        <div class="container">
+          <h1 id="name-title">Kristian Hailey</h1>
+          <nav>
+            <a href="#featured-works">Featured</a>
+            <a href="#my-work">Works</a>
+            <a href="#about-me">About</a>
+            <a href="#skills">Skills</a>
+          </nav>
+        </div>
+        
     </header>
 
     <main>
+        <img src="/images/swiffer-gif.gif" id='woohoo-it-me'>
+
         <div class="top-panel">
             <h2>Hi! Check out my work, and get in touch below.</h2>
         </div>
 
-        <div class="featured-works">
-            <h3>Featured Works</h3>
+        <div id="featured-works">
+            <h3 id="featured-works">Featured Works</h3>
 
             <div class="featured-img">
                 <table>
                     <tr>
                         <td>
                             <a href="https://nightmaretown.co">
-                                <img src="/images/nightmare-town.jpg" alt="Nightmare Town" class="screen"
+                                <img src="/images/nightmare-town.jpg" alt="Nightmare Town" class="screen" id='nt-screen'
                                     title="Look for easter egg...">
                             </a>
                         </td>
                         <td>
                             <a href="https://github.com/swifferwarrior/google-homepage">
-                                <img src="/images/geeglo.png" alt="Geeglo" class="screen">
+                                <img src="/images/geeglo.png" alt="Geeglo" class="screen" id='geeglo-screen'>
                             </a>
                         </td>
                     </tr>
@@ -51,7 +62,7 @@
         <hr>
 
         <div class="my-work">
-            <h3>My Work</h3>
+            <h3 id="my-work">My Work</h3>
             <div>
                 <!--Three columns-->
                 <table>
@@ -75,7 +86,7 @@
         <hr class="wp-block-separator is-style-wide">
 
         <div class="about-me">
-            <h3>About Me</h3>
+            <h3 id="about-me">About Me</h3>
             <p>Currently, I’m a therapist with an M.A. in Clinical Mental Health Counseling with a focus in neuro-based
                 interventions.
                 I provide child therapy, couple’s therapy, and individual and group A&D therapy. I’ve also worked
@@ -97,7 +108,7 @@
         <hr>
 
         <div class="skills">
-            <h3>Skills</h3>
+            <h3 id="skills">Skills</h3>
             <table>
                 <tr>
                     <td>
@@ -137,10 +148,37 @@
     </main>
 
     <footer>
-        <figure class="edit-by">
-            <img src="/images/swiffer-gif.gif" width="50px" height="50px">
-            <span>Edited by <a href="https://github.com/swifferwarrior">SwifferWarrior</a> © 2019 </span>
+ 
+      <div class="container footer-bar">
+         <figure class="edit-by">
+          <img src="/images/swiffer-gif.gif" width="50px" height="50px">
+          <span>Edited by <a href="https://github.com/swifferwarrior">SwifferWarrior</a> © 2019 </span>
+          </figure>
+        <figure class='social-media'>
+          <a href="mailto: kdhailey21@gmail.com" title="Email">
+            <img src="./images/icons/email.png">
+          </a>
+
+          <a href="https://www.instagram.com/swifferwarrior/" title="Instagram">
+            <img src='./images/icons/instagram.png'>
+          </a>
+
+          <a href="https://twitter.com/swifferwarrior" title="Twitter">
+            <img src='./images/icons/twitter.png'>
+          </a>
+          <!--
+          <a href="https://www.facebook.com/nightmaretown18/" title="Facebook">
+            <img src='./images/icons/facebook.png'>
+          </a> -->
+          <!--
+          <a href="https://www.youtube.com/channel/UC-Tx0f_-SNZr7ADqVE3vbJA" title="YouChoob">
+            <img src='./images/icons/youtube.png'>
+          </a>  
+          -->
         </figure>
+      </div>
+
+      
     </footer>
     <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
@@ -150,3 +188,8 @@
 </body>
 
 </html>
+<!--Todo-->
+<!--
++Collabsible sidebar nav
++
+-->
