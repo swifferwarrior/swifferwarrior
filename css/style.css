@@ -195,8 +195,10 @@ Add social media icons: twitter, github, linkedin, instagram*/
   display: block;
   position: relative;
   vertical-align: middle;
+  bottom: 0px;
+  height: 75px;
 /*  border-top: solid white 2px;*/
-      box-shadow: 0  0 1px 0;
+/*      box-shadow: 0  0 1px 0;*/
 }
 
 .edit-by, .social-media {
@@ -215,6 +217,11 @@ Add social media icons: twitter, github, linkedin, instagram*/
 .edit-by span{
   position: relative;
   padding: 15px;
+  vertical-align: middle;
+}
+
+.edit-by {
+  top: 20px;
 }
 
 .social-media img {
