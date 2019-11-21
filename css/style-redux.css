@@ -175,6 +175,7 @@ td p {
 .about-content{
   margin: auto;
   max-width: 825px; 
+  margin-bottom: 50px
 }
 
 /*--Skills-*/
