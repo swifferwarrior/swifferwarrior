@@ -47,6 +47,9 @@
 .figure {
   min-width: 400px;
 }
+ol.img-list {
+  padding: 0;
+}
 /*Footer*/
 .social-media img {
 /*  width: 30px*/
