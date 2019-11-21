@@ -12,18 +12,28 @@
     <title>Kristian Hailey</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-redux.css">
+    <link rel="stylesheet" href="css/style-mobile.css">
 </head>
 
 <body>
     <header>
         <div class="container">
           <h1 id="name-title">Kristian Hailey</h1>
-          <nav>
+          <nav class="desktop-nav">
             <a href="#featured-works">Featured</a>
             <a href="#my-work">Works</a>
             <a href="#about-me">About</a>
             <a href="#skills">Skills</a>
+          </nav>
+          <nav class='mobile-nav'>
+            <button class='dropbtn'><img src="images/menu.png"></button>
+            <div class='dropdown-content'>
+              <a href="#featured-works">Featured</a>
+              <a href="#my-work">Works</a>
+              <a href="#about-me">About</a>
+              <a href="#skills">Skills</a>
+            </div>
           </nav>
         </div>
         
@@ -36,9 +46,25 @@
             <h2>Hi! Check out my work, and get in touch below.</h2>
         </div>
 
-        <div id="featured-works">
-            <h3 id="featured-works">Featured Works</h3>
-
+        <div id="featured">
+          <h3 id="featured-works">Featured Works</h3>
+          
+          <div id="featured-img">
+            <ol class="img-list">
+              <li class="figure" id="nt-preview">
+                <a href="https://nightmaretown.co">
+                  <img src="/images/nt-preview.png" alt="Nightmare Town" class="screen" id='nt-screen' title="Look for easter egg...">
+                </a>
+              </li>
+              <li class="figure" id="geeglo-preview">
+                <a href="https://github.com/swifferwarrior/google-homepage">
+                  <img src="/images/geeglo.png" alt="Geeglo" class="screen" id='geeglo-screen'>
+                </a>
+              </li>
+            </ol>
+          </div>  
+          
+<!--
             <div class="featured-img">
                 <table>
                     <tr>
@@ -57,6 +83,7 @@
 
                 </table>
             </div>
+-->
         </div>
 
         <hr>

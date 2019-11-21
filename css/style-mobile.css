@@ -1,0 +1,53 @@
+/* MOBILE CSS STYLES */
+@media only screen and (max-width: 680px) {
+
+/*-Nav*/
+  .desktop-nav{
+    display: none;
+  }
+  
+  .mobile-nav {
+    display: inline-block;
+    position: relative;
+/*    left: 0;*/
+/*    top: 4.375em;*/
+/*    position: absolute;*/
+/*    width: 100%;*/
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    font-size: 1.5em;
+    z-index: 1000;
+  }
+  
+  .dropdown-content a {
+    font-family: "Tulpen One";
+    letter-spacing: 6px;
+    font-weight: bold;
+    text-align: center;
+    color: antiquewhite;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    z-index: 11;
+    border: dotted 1px antiquewhite;
+    margin: 10px;
+    padding: 10px 50px;
+  }
+  
+  .mobile-nav:hover .dropdown-content {
+    display: block;
+    z-index: 11;
+    background-color:rgba(26, 7, 26, 0.9);
+  }
+  * {text-align: center;}
+}
+/*Featured*/
+.figure {
+  min-width: 400px;
+}
+/*Footer*/
+.social-media img {
+/*  width: 30px*/
+}
