@@ -63,10 +63,14 @@
 .figure {
   min-width: 400px;
 }
+ol.img-list {
+  padding: 0;
+}
 /*About Me*/
 .about-me p{
   padding: 0 25px;
 }
+
 /*Footer*/
 .social-media img {
 /*  width: 30px*/
