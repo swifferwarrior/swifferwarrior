@@ -47,14 +47,16 @@
     .dropbtn img{
     filter: invert(100%);
     width: 50px;
+/*    position: static;*/
+/*    bottom: 15px;*/
 }
   * {text-align: center;}
 }
   button {
     background: transparent;
     border: none;
-    padding: 30px 0 0 30px;
-    position: fixed;
+/*    padding: 30px 0 0 30px;*/
+/*    position: fixed;*/
     bottom: 40px;
     left: 5px;
     z-index: 100px;
@@ -74,4 +76,10 @@ ol.img-list {
 /*Footer*/
 .social-media img {
 /*  width: 30px*/
+}
+.edit-by {
+  padding-bottom: 25px;
+}
+.social-media {
+  float: none;
 }
