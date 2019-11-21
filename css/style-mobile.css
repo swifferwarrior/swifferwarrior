@@ -51,7 +51,6 @@
 /*    bottom: 15px;*/
 }
   * {text-align: center;}
-}
   button {
     background: transparent;
     border: none;
@@ -82,4 +81,5 @@ ol.img-list {
 }
 .social-media {
   float: none;
+}
 }
