@@ -17,7 +17,7 @@ p{
 
 /*HTML*/
 body, html {
-  background-color: dimgrey;
+  background-color: #1D252D; /*Blue Charcoal*/
   height: 100%;
   bottom: 0px;
   height: auto;
@@ -178,12 +178,17 @@ td p {
 }
 
 /*--Skills-*/
-.skills-container {
+#skills-container {
   overflow: auto;
   display: block;
+  margin-bottom: 25px;
 }
-.skills-grid {
+#skills-grid {
   list-style: none;
+  width: 95%;
+  display: block;
+  padding: 0;
+  margin: auto;
 }
 .skills {
     display: block;
@@ -191,8 +196,10 @@ td p {
     text-align: center;
 }
 .icon {
-  float: left;
-  padding-right: 5.5%
+/*  float: left;*/
+/*padding: 1.5%;*/
+  margin: auto;
+  display: inline-block;
 }
 
 /*FOOTER*/
