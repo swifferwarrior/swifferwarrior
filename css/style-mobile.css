@@ -67,6 +67,11 @@
 ol.img-list {
   padding: 0;
 }
+/*My Work*/
+  .work-content {
+/*    max-width: 40%;*/
+    margin: 0 100px;
+  }
 /*About Me*/
 .about-me p{
   padding: 0 25px;
