@@ -69,12 +69,12 @@ ol.img-list {
 }
 /*My Work*/
   .work-content {
-    max-width: 40%;
+/*    max-width: 25%;*/
     margin: 0 100px;
   }
 /*About Me*/
 .about-me p{
-  padding: 0 25px;
+  padding: 0 40px;
 }
 
 /*Footer*/

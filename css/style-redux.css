@@ -137,22 +137,20 @@ li#geeglo-preview img {
     padding: bottom: 25px;
     overflow: auto;
 }
-#my-work-container ol {margin: 0; padding: 0;}
+#my-work-container ol {
+  margin: 0; 
+  padding: 0;
+  list-style: none;
+}
 .work-content{
     display: inline-block;
     margin: auto;
     text-align: center;
-/*    display: inline-block;*/
     max-width: 15%;
     min-width: 150px;
     vertical-align: top;
     padding: 25px;
-/*    vertical-align: top;*/
-/*    position: inline-block;*/
-/*    float: left;*/
-}
-.work-content-title {
-  vertical-align: bottom;
+/*    overflow: auto;*/
 }
 .work-content-text {
   text-align: center;
@@ -160,6 +158,15 @@ li#geeglo-preview img {
   padding: 0;
   margin: auto;
   display: inline-block;
+  width: 100%;
+}
+
+.work-content-title {
+/*  vertical-align: center;*/
+  display: block;
+  margin: auto;
+  padding: 25px;
+  letter-spacing: 2.5px;
 }
 
 /*--About Me-*/
