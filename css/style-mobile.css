@@ -70,7 +70,12 @@ p{
 }
 ol.img-list {
   padding: 0;
+    text-align: center;
+    margin: auto;
 }
+    .screen {
+        margin: auto;
+    }
   
 /*My Work*/
 .work-content {
@@ -95,4 +100,12 @@ padding: 0 40px;
 .social-media {
   float: none;
 }
+}
+
+
+
+@media only screen and (max-width: 450px) {
+    ol.img-list {
+        margin: 0;
+    }
 }
