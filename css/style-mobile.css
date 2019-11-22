@@ -13,11 +13,13 @@
     position: absolute;
     font-size: 1.5em;
     z-index: 1000;
-    max-width: 55%;
+/*    max-width: 55%;*/
 /*    margin-left:;*/
       margin-left: -125px;
-  margin-top: 50px;
+      margin-right: -125px;
+        margin-top: 50px;
       left: 50%;
+      right: 50%;
       border: 2px solid antiquewhite;
       border-radius: 180px;
       height: 250px;
