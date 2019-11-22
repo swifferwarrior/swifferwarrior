@@ -108,4 +108,7 @@ padding: 0 40px;
     ol.img-list {
         margin: 0;
     }
+    .social-media img {
+        padding: 0 5px;
+    }
 }
