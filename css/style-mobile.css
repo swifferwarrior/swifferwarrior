@@ -5,7 +5,6 @@
   .desktop-nav{
     display: none;
   }
-  
   .mobile-nav {
     display: inline-block;
     position: relative;
@@ -23,7 +22,6 @@
     font-size: 1.5em;
     z-index: 1000;
   }
-  
   .dropdown-content a {
     font-family: "Tulpen One";
     letter-spacing: 6px;
@@ -38,13 +36,12 @@
     margin: 10px;
     padding: 10px 50px;
   }
-  
   .mobile-nav:hover .dropdown-content {
     display: block;
     z-index: 11;
     background-color:rgba(26, 7, 26, 0.9);
   }
-    .dropbtn img{
+  .dropbtn img{
     filter: invert(100%);
     width: 50px;
 /*    position: static;*/
@@ -60,6 +57,20 @@
     left: 5px;
     z-index: 100px;
   }
+
+/*Typography*/
+h1 {font-size: 2.4em;}
+/*h2 {font-size: 2em;*/
+}
+/*h3 {font-size: 20px;}*/
+/*h4 {font-size: 17px;}*/
+h2, h3, h4 {
+    font-size: 2em;;
+}
+p{ 
+  font-size: 1.4em;
+  line-height: inherit;
+}
 /*Featured*/
 .figure {
   min-width: 400px;
@@ -67,17 +78,21 @@
 ol.img-list {
   padding: 0;
 }
+  
 /*My Work*/
-  .work-content {
-/*    max-width: 25%;*/
-    margin: 0 100px;
+.work-content {
+/*margin: 0;*/
+/*padding: 50px;*/
+/*width: 100%;*/
+max-width: 60%;
   }
 /*About Me*/
 .about-me p{
-  padding: 0 40px;
+padding: 0 40px;
 }
 
 /*Footer*/
+  
 .social-media img {
 /*  width: 30px*/
 }
