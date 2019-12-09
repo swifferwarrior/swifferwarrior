@@ -86,9 +86,11 @@ hr {
   max-width: 100%;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
   margin: 0 auto 1em;
+  transition: all 0.3s;
 }
 .screen:hover {
   box-shadow: 1px 1px 1px 2px white;
+  scale: 1.1;
 }
 .img-list {
   margin: auto;
@@ -103,7 +105,7 @@ hr {
 .img-list li {
   list-style: none;
 }
-li#geeglo-preview img {
+li#geeglo-preview img, li#nt-preview img {
   margin-right: 0;
 }
 
