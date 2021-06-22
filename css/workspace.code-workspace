@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"name": "nightmaretown-2",
+			"path": "../../nightmaretown-2"
+		},
+		{
+			"name": "ntp",
+			"path": "../../ntp"
+		},
+		{
+			"name": "nightmare-town",
+			"path": "../../nightmare-town"
+		},
+		{
+			"name": "swifferwarrior",
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "nightmaretown-2"
+	}
+}
