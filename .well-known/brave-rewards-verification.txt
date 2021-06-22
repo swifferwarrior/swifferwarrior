@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: kristianhailey.com
+Token: 106225d36bbb09ef844cc256c75547add91f8a94b4c8f0e5d26efddc9e1289ad
